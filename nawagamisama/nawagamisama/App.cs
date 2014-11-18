@@ -42,7 +42,8 @@ namespace nawagamisama {
             }
 
             _button = new Button{
-                Text = "Start"
+                Text = "Start",
+                BackgroundColor = Color.Blue
             };
             _button.Clicked += (sender, args) => {
                 if (!_play){
